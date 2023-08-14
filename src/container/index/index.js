@@ -37,7 +37,7 @@ export class Todo {
   static #input = null
   static #button = null
 
-  static #init = () => {
+  static init = () => {
     this.#template =
       document.getElementById(
         'task',
